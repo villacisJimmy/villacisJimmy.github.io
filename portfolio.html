@@ -1,247 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 6 - Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/e29756e8cb.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desafio 6 - Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/e29756e8cb.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top me-3">
-        <div class="container-fluid">
-            <a class="navbar-brand ms-5" href="./index.html">
-                <svg width="200" height="40" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
-                    <text x="0" y="28" font-family="Arial, sans-serif" font-size="24" fill="#333333" font-weight="bold">
-                        Jimmy Villacis
-                    </text>
-                </svg>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top me-3">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5" href="./index.html">
+        <svg width="200" height="40" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+          <text x="0" y="28" font-family="Arial, sans-serif" font-size="24" fill="#333333" font-weight="bold">
+            Jimmy Villacis
+          </text>
+        </svg>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse my-3 mx-5" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true" href="./index.html#certifications">Certifications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true" href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <h1 class="text-spacing my-5 text-center pt-5">PORTAFOLIO</h1>
+
+  <div class="m-5 px-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4 m-5">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/img/desafio1.png" class="card-img-top" alt="desafio1" />
+          <div class="card-body">
+            <h5 class="card-title">HTML</h5>
+            <p class="card-text">
+              En este desafío debía armar un currículum vitae utilizando HTML
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/img/desafio2b.png" class="card-img-top" alt="desafio2" />
+          <div class="card-body">
+            <h5 class="card-title">HTML/CSS</h5>
+            <p class="card-text">
+              En este desafío debía construir un landing page de un producto
+              usando HTML y CSS
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/img/club.png" class="card-img-top" alt="club" />
+          <div class="card-body">
+            <h5 class="card-title">HTML/CSS</h5>
+            <p class="card-text">
+              Practica para construir un landing page de un producto usando
+              HTML y CSS
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/img/montana.png" class="card-img-top" alt="montaña" />
+          <div class="card-body">
+            <h5 class="card-title">HTML/CSS</h5>
+            <p class="card-text">
+              Practica para construir un landing page de un producto usando
+              HTML y CSS
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/img/iguanapage.png" class="card-img-top" alt="desafio3" />
+          <div class="card-body">
+            <h5 class="card-title">HTML/CSS</h5>
+            <p class="card-text">
+              Construir un landing page a partir de una maqueta, siguiendo las
+              especificaciones definidas dentro de la misma
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/img/desafio4.png" class="card-img-top" alt="desafio4" />
+          <div class="card-body">
+            <h5 class="card-title">HTML/CSS/Bootstrap</h5>
+            <p class="card-text">
+              Construir una página web para vender productos que debía tener
+              tanto una versión para escritorio, para tablet y para teléfonos
+              móviles.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 m-5">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/img/desafio5.png" class="card-img-top" alt="desafio5" />
+          <div class="card-body">
+            <h5 class="card-title">HTML/CSS/Git/Github</h5>
+            <p class="card-text">
+              Aplicar conocimientos sobre Git, Github, HTML y CSS, para
+              construir un CV a partir de una plantilla que encontraremos en
+              Github, y sobre este proyecto, deberemos hacer un fork y
+              modificarlo para lograr el objetivo.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/img/extra1.png" class="card-img-top" alt="extra1" />
+          <div class="card-body">
+            <h5 class="card-title">HTML/Tailwind/</h5>
+            <p class="card-text">
+              Este proyecto fue una practica sobre el uso de Tailwind dentro
+              del front
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-white border-top py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="fw-bold mb-3">
+            <i class="bi bi-shop me-2"></i> VillaDev
+          </h5>
+          <p class="text-muted small">
+            Somos líderes en IT. Calidad y servicio excepcional desde
+            Windows95.
+          </p>
+          <div class="d-flex mt-3 ms-4">
+            <a href="URL_LINKEDIN" class="text-dark me-3" aria-label="Facebook">
+              <i class="fa-brands fa-linkedin fa-2xl"></i>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse my-3 mx-5" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html#experience">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true" href="./index.html#certifications">Certifications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true" href="./index.html#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+            <a href="URL_GITHUB" class="text-dark me-3" aria-label="Instagram">
+              <i class="fa-brands fa-github fa-2xl"></i>
+            </a>
+            <a href="EMAIL" class="text-dark" aria-label="X (Twitter)">
+              <i class="fa-solid fa-envelope fa-2xl"></i>
+            </a>
+          </div>
         </div>
-    </nav>
 
-
-<h1 class="text-spacing my-5 text-center pt-5">PORTAFOLIO</h1>
-
-
-<div class="m-5 px-5">
-
-
-<div class="row row-cols-1 row-cols-md-3 g-4 m-5">
-  <div class="col">
-    <div class="card h-100">
-      <img src="./assets/img/iguanapage.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">HTML</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./assets/img/iguanapage.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">HTML/CSS</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./assets/img/iguanapage.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">HTML/CSS/Boostrap</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="row row-cols-1 row-cols-md-3 g-4 m-5">
-  <div class="col">
-    <div class="card h-100">
-      <img src="./assets/img/iguanapage.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">HTML/CSS/Tailwind</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./assets/img/iguanapage.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Javascript</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./assets/img/iguanapage.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">HTML/CSS/Tailwind/Javascript</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="row row-cols-1 row-cols-md-3 g-4 m-5">
-  <div class="col">
-    <div class="card h-100">
-      <img src="./assets/img/iguanapage.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">HTML/CSS/Boostrap/Javascript</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./assets/img/iguanapage.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">HTML/Python/Django</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./assets/img/iguanapage.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">HTML/Python/Django</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-</div>
-
-
-
-
-
-    <footer class="bg-white border-top py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5 class="fw-bold mb-3">
-                        <i class="bi bi-shop me-2"></i> VillaDev
-                    </h5>
-                    <p class="text-muted small">
-                        Somos líderes en IT. Calidad y servicio excepcional desde Windows95.
-                    </p>
-                    <div class="d-flex mt-3 ms-4">
-                        <a href="URL_LINKEDIN" class="text-dark me-3" aria-label="Facebook">
-                            <i class="fa-brands fa-linkedin fa-2xl"></i>                        </a>
-                        <a href="URL_GITHUB" class="text-dark me-3" aria-label="Instagram">
-                            <i class="fa-brands fa-github fa-2xl"></i>                        </a>
-                        <a href="EMAIL" class="text-dark" aria-label="X (Twitter)">
-                            <i class="fa-solid fa-envelope fa-2xl"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5 class="fw-bold mb-3">Navegación</h5>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">About</a></li>
-                        <li class="mb-2"><a href="#blog" class="text-muted text-decoration-none">Blog</a></li>
-                        <li class="mb-2"><a href="#portfolio" class="text-muted text-decoration-none">Portfolio</a></li>
-                        <li class="mb-2"><a href="#contact" class="text-muted text-decoration-none">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5 class="fw-bold mb-3">Legal y Ayuda</h5>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="URL_PRIVACIDAD" class="text-muted text-decoration-none">Política de Privacidad</a></li>
-                        <li class="mb-2"><a href="URL_TERMINOS" class="text-muted text-decoration-none">Términos y Condiciones</a></li>
-                        <li class="mb-2"><a href="URL_FAQ" class="text-muted text-decoration-none">Preguntas Frecuentes</a></li>
-                        <li class="mb-2"><a href="URL_DEVOLUCIONES" class="text-muted text-decoration-none">Política de Devoluciones</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5 class="fw-bold mb-3">Contacto</h5>
-                    <p class="text-muted small mb-1">
-                        <i class="bi bi-envelope me-2"></i> Email: villacis.j@icloud.com
-                    </p>
-                    <p class="text-muted small mb-1">
-                        <i class="bi bi-phone me-2"></i>  Cel: +56 9 XXXX XXXX
-                    </p>
-                    <p class="text-muted small">
-                        <i class="bi bi-geo-alt me-2"></i> Dirección: Av. Principal 777, Santiago
-                    </p>
-                </div>
-            </div>
-
-            <div class="row mt-4 pt-4 border-top">
-                <div class="col-12 text-center">
-                    <p class="text-muted small mb-0">
-                        &copy; 2025 VillaDev. Todos los derechos reservados.
-                    </p>
-                </div>
-            </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="fw-bold mb-3">Navegación</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="#" class="text-muted text-decoration-none">About</a>
+            </li>
+            <li class="mb-2">
+              <a href="#blog" class="text-muted text-decoration-none">Blog</a>
+            </li>
+            <li class="mb-2">
+              <a href="#portfolio" class="text-muted text-decoration-none">Portfolio</a>
+            </li>
+            <li class="mb-2">
+              <a href="#contact" class="text-muted text-decoration-none">Contact</a>
+            </li>
+          </ul>
         </div>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="fw-bold mb-3">Legal y Ayuda</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="URL_PRIVACIDAD" class="text-muted text-decoration-none">Política de Privacidad</a>
+            </li>
+            <li class="mb-2">
+              <a href="URL_TERMINOS" class="text-muted text-decoration-none">Términos y Condiciones</a>
+            </li>
+            <li class="mb-2">
+              <a href="URL_FAQ" class="text-muted text-decoration-none">Preguntas Frecuentes</a>
+            </li>
+            <li class="mb-2">
+              <a href="URL_DEVOLUCIONES" class="text-muted text-decoration-none">Política de Devoluciones</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="fw-bold mb-3">Contacto</h5>
+          <p class="text-muted small mb-1">
+            <i class="bi bi-envelope me-2"></i> Email: villacis.j@icloud.com
+          </p>
+          <p class="text-muted small mb-1">
+            <i class="bi bi-phone me-2"></i> Cel: +56 9 XXXX XXXX
+          </p>
+          <p class="text-muted small">
+            <i class="bi bi-geo-alt me-2"></i> Dirección: Av. Principal 777,
+            Santiago
+          </p>
+        </div>
+      </div>
+
+      <div class="row mt-4 pt-4 border-top">
+        <div class="col-12 text-center">
+          <p class="text-muted small mb-0">
+            &copy; 2025 VillaDev. Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
